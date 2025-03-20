@@ -10,23 +10,20 @@ import SwiftData
 
 @main
 struct AppleNote_AIApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 240, maxWidth: .infinity, minHeight: 120, maxHeight: .infinity)
         }
-        .modelContainer(sharedModelContainer)
+        .windowStyle(.hiddenTitleBar)
+        .commands {
+//            CommandGroup(replacing: .newItem) {
+//                Button("New note") {}
+//            }
+            CommandMenu("Color") {}
+            CommandMenu("Features") {}
+        }
     }
 }
