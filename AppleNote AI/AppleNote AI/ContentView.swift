@@ -11,35 +11,42 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    
+    @State private var text = "Write your note here..."
+    @State private var position = CGPoint(x: 100, y: 100)
+    
+    @State public var note: String = ""
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+        VStack {
+            VStack {
+                Text("Test window")
+                    .padding(.top, 6)
+                    .padding(.bottom, 6)
+                    .bold()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.red)
+                    .ignoresSafeArea()
+                    .gesture(TapGesture().onEnded {
+                        print("single clicked")
+                    })
+                
+                TextEditor(text: $note)
+                    .scrollContentBackground(.hidden)
+                    .background(Color.clear)
+                    .disableAutocorrection(true)
+                    .padding(6)
             }
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-            .toolbar {
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
         }
+        .padding(.horizontal, 4)
+        .padding(.bottom, 4)
+        .ignoresSafeArea()
+        
     }
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
+            let newItem = Note(timestamp: Date(), title:"", note:"")
             modelContext.insert(newItem)
         }
     }
