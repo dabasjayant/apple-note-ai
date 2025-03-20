@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		169CA2842D8C574100DBF6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169CA2682D8C573F00DBF6F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169CA26F2D8C573F00DBF6F3;
+			remoteInfo = "AppleNote AI";
+		};
+		169CA28E2D8C574100DBF6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169CA2682D8C573F00DBF6F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169CA26F2D8C573F00DBF6F3;
+			remoteInfo = "AppleNote AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169CA2702D8C573F00DBF6F3 /* AppleNote AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleNote AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169CA2832D8C574100DBF6F3 /* AppleNote AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleNote AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169CA28D2D8C574100DBF6F3 /* AppleNote AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleNote AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		169CA2722D8C573F00DBF6F3 /* AppleNote AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleNote AI";
+			sourceTree = "<group>";
+		};
+		169CA2862D8C574100DBF6F3 /* AppleNote AITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleNote AITests";
+			sourceTree = "<group>";
+		};
+		169CA2902D8C574100DBF6F3 /* AppleNote AIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleNote AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169CA26D2D8C573F00DBF6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA2802D8C574100DBF6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA28A2D8C574100DBF6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169CA2672D8C573F00DBF6F3 = {
+			isa = PBXGroup;
+			children = (
+				169CA2722D8C573F00DBF6F3 /* AppleNote AI */,
+				169CA2862D8C574100DBF6F3 /* AppleNote AITests */,
+				169CA2902D8C574100DBF6F3 /* AppleNote AIUITests */,
+				169CA2712D8C573F00DBF6F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169CA2712D8C573F00DBF6F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169CA2702D8C573F00DBF6F3 /* AppleNote AI.app */,
+				169CA2832D8C574100DBF6F3 /* AppleNote AITests.xctest */,
+				169CA28D2D8C574100DBF6F3 /* AppleNote AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169CA26F2D8C573F00DBF6F3 /* AppleNote AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169CA2972D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AI" */;
+			buildPhases = (
+				169CA26C2D8C573F00DBF6F3 /* Sources */,
+				169CA26D2D8C573F00DBF6F3 /* Frameworks */,
+				169CA26E2D8C573F00DBF6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				169CA2722D8C573F00DBF6F3 /* AppleNote AI */,
+			);
+			name = "AppleNote AI";
+			packageProductDependencies = (
+			);
+			productName = "AppleNote AI";
+			productReference = 169CA2702D8C573F00DBF6F3 /* AppleNote AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169CA2822D8C574100DBF6F3 /* AppleNote AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169CA29A2D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AITests" */;
+			buildPhases = (
+				169CA27F2D8C574100DBF6F3 /* Sources */,
+				169CA2802D8C574100DBF6F3 /* Frameworks */,
+				169CA2812D8C574100DBF6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169CA2852D8C574100DBF6F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				169CA2862D8C574100DBF6F3 /* AppleNote AITests */,
+			);
+			name = "AppleNote AITests";
+			packageProductDependencies = (
+			);
+			productName = "AppleNote AITests";
+			productReference = 169CA2832D8C574100DBF6F3 /* AppleNote AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169CA28C2D8C574100DBF6F3 /* AppleNote AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169CA29D2D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AIUITests" */;
+			buildPhases = (
+				169CA2892D8C574100DBF6F3 /* Sources */,
+				169CA28A2D8C574100DBF6F3 /* Frameworks */,
+				169CA28B2D8C574100DBF6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169CA28F2D8C574100DBF6F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				169CA2902D8C574100DBF6F3 /* AppleNote AIUITests */,
+			);
+			name = "AppleNote AIUITests";
+			packageProductDependencies = (
+			);
+			productName = "AppleNote AIUITests";
+			productReference = 169CA28D2D8C574100DBF6F3 /* AppleNote AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169CA2682D8C573F00DBF6F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					169CA26F2D8C573F00DBF6F3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					169CA2822D8C574100DBF6F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 169CA26F2D8C573F00DBF6F3;
+					};
+					169CA28C2D8C574100DBF6F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 169CA26F2D8C573F00DBF6F3;
+					};
+				};
+			};
+			buildConfigurationList = 169CA26B2D8C573F00DBF6F3 /* Build configuration list for PBXProject "AppleNote AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169CA2672D8C573F00DBF6F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 169CA2712D8C573F00DBF6F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169CA26F2D8C573F00DBF6F3 /* AppleNote AI */,
+				169CA2822D8C574100DBF6F3 /* AppleNote AITests */,
+				169CA28C2D8C574100DBF6F3 /* AppleNote AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169CA26E2D8C573F00DBF6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA2812D8C574100DBF6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA28B2D8C574100DBF6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169CA26C2D8C573F00DBF6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA27F2D8C574100DBF6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169CA2892D8C574100DBF6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169CA2852D8C574100DBF6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169CA26F2D8C573F00DBF6F3 /* AppleNote AI */;
+			targetProxy = 169CA2842D8C574100DBF6F3 /* PBXContainerItemProxy */;
+		};
+		169CA28F2D8C574100DBF6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169CA26F2D8C573F00DBF6F3 /* AppleNote AI */;
+			targetProxy = 169CA28E2D8C574100DBF6F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		169CA2952D8C574100DBF6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169CA2962D8C574100DBF6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		169CA2982D8C574100DBF6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AppleNote AI/AppleNote_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleNote AI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		169CA2992D8C574100DBF6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AppleNote AI/AppleNote_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleNote AI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		169CA29B2D8C574100DBF6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleNote AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleNote AI";
+			};
+			name = Debug;
+		};
+		169CA29C2D8C574100DBF6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleNote AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleNote AI";
+			};
+			name = Release;
+		};
+		169CA29E2D8C574100DBF6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppleNote AI";
+			};
+			name = Debug;
+		};
+		169CA29F2D8C574100DBF6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dabasjayant.AppleNote-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppleNote AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169CA26B2D8C573F00DBF6F3 /* Build configuration list for PBXProject "AppleNote AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CA2952D8C574100DBF6F3 /* Debug */,
+				169CA2962D8C574100DBF6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169CA2972D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CA2982D8C574100DBF6F3 /* Debug */,
+				169CA2992D8C574100DBF6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169CA29A2D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CA29B2D8C574100DBF6F3 /* Debug */,
+				169CA29C2D8C574100DBF6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169CA29D2D8C574100DBF6F3 /* Build configuration list for PBXNativeTarget "AppleNote AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169CA29E2D8C574100DBF6F3 /* Debug */,
+				169CA29F2D8C574100DBF6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169CA2682D8C573F00DBF6F3 /* Project object */;
+}
