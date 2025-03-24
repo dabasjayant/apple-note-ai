@@ -10,13 +10,11 @@ import SwiftData
 
 struct ContentView: View {
     
-    @State public var note: String = ""
-    @State public var expanded: Bool = true
+    @State private var note: String = ""
+    @State private var expanded: Bool = true
     
-    @State var titleHeight: CGFloat = 28
-    @State var prevHeight: CGFloat = 240
-    
-    @State var firstLaunch = true
+    @State private var titleHeight: CGFloat = 28
+    @State private var prevHeight: CGFloat = 240
 
     var body: some View {
         GeometryReader { geometry in
@@ -26,41 +24,27 @@ struct ContentView: View {
                         .padding(.top, 6)
                         .padding(.bottom, 6)
                         .bold()
-                        .frame(maxWidth: .infinity)
+                        .frame(maxWidth: .infinity, minHeight: titleHeight)
                         .background(Color.red)
                         .ignoresSafeArea()
                         .gesture(TapGesture().onEnded {
-                            if let window = NSApplication.shared.windows.first {
+                            if let window = NSApplication.shared.keyWindow {
                                 toggleWindow(window: window)
                             }
                         })
                     
-//                    TextEditor(text: $note)
-//                        .scrollContentBackground(.hidden)
-//                        .background(Color.clear)
-//                        .disableAutocorrection(true)
-//                        .padding(6)
+                    TextEditor(text: $note)
+                        .scrollContentBackground(.hidden)
+                        .background(Color.clear)
+                        .disableAutocorrection(true)
+                        .padding(6)
                 }
+                
             }
             .frame(minWidth: 240, maxWidth: .infinity, minHeight: titleHeight, maxHeight: .infinity)
             .padding(.horizontal, 4)
             .padding(.bottom, 4)
             .ignoresSafeArea()
-//            .onAppear {
-//                if firstLaunch, let window = NSApplication.shared.keyWindow {
-//                    window.level = .floating
-//                    if let miniButton = window.standardWindowButton(.miniaturizeButton) {
-//                        miniButton.isHidden = true
-//                    }
-//                    if let zoomButton = window.standardWindowButton(.zoomButton) {
-//                        zoomButton.isHidden = true
-//                    }
-//                }
-//                if let menu = NSApplication.shared.mainMenu {
-//                    menu.items.removeAll { $0.title == "View" }
-//                }
-//                firstLaunch = false
-//            }
             .onChange(of: geometry.size.height) {
                 if (expanded) {
                     prevHeight = geometry.size.height
