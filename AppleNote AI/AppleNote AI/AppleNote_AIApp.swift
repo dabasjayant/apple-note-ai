@@ -10,18 +10,21 @@ import SwiftData
 
 @main
 struct AppleNote_AIApp: App {
-    @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
+    @Environment(\.openWindow) private var openWindow
+//    @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
 
     var body: some Scene {
-        WindowGroup {
+        WindowGroup(id: "note-viewer") {
             ContentView()
-                .frame(minWidth: 240, maxWidth: .infinity, minHeight: 120, maxHeight: .infinity)
         }
+        .defaultSize(width: 320, height: 240)
         .windowStyle(.hiddenTitleBar)
         .commands {
-//            CommandGroup(replacing: .newItem) {
-//                Button("New note") {}
-//            }
+            CommandGroup(replacing: .newItem) {
+                Button("New note") {
+                    openWindow(id: "note-viewer")
+                }
+            }
             CommandMenu("Color") {}
             CommandMenu("Features") {}
         }

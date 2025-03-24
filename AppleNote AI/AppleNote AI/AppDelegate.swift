@@ -14,10 +14,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
             window.level = .floating
             window.standardWindowButton(.miniaturizeButton)!.isHidden = true
             window.standardWindowButton(.zoomButton)!.isHidden = true
-            
-            if let menu = NSApplication.shared.mainMenu {
-                menu.items.removeAll { $0.title == "View" }
-            }
+        }
+        if let menu = NSApplication.shared.mainMenu {
+            menu.items.removeAll { $0.title == "View" }
         }
     }
 }
